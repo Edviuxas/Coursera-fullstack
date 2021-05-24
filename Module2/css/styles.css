@@ -22,7 +22,7 @@ div > section {
 	right: 0;
 	border: solid 1px black;
 	font-weight: bold;
-	height: 20%;
+	height: 25px;
 	width: 150px;
 	text-align: center;
 	float: right;
@@ -34,17 +34,17 @@ div > p {
 
 @media (min-width: 768px) and (max-width: 991px) {
 	#div1 {
-		width: 48%;
+		width: 47%;
 	}
 	#div2 {
-		width: 48%;
+		width: 47%;
 	}
 	#div3 {
 		width: 97%;
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	#div1 {
 		width: 99%;
 	}
