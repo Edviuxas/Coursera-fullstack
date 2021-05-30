@@ -1,19 +1,21 @@
-* {
-	box-sizing: border-box;
-}
-
 h1 {
 	text-align: center;
 }
 
-div {
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.box {
 	position: relative;
 	background-color: grey;
-	width: 32%;
+	width: 31%;
 	float: left;
 	margin: 10px 10px 10px 10px;
 	padding: 10px;
 	border: solid 1px black;
+	box-sizing: border-box;
 }
 
 div > section {
@@ -40,18 +42,18 @@ div > p {
 		width: 47%;
 	}
 	#div3 {
-		width: 97%;
+		width: 96%;
 	}
 }
 
 @media (max-width: 768px) {
 	#div1 {
-		width: 99%;
+		width: 95%;
 	}
 	#div2 {
-		width: 99%;
+		width: 95%;
 	}
 	#div3 {
-		width: 99%;
+		width: 95%;
 	}
 }
