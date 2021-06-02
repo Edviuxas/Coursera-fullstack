@@ -19,7 +19,7 @@
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
     #collapsable-nav {
-        background-color: #909090;
+        background-color: #919191;
     }
     #collapsable-nav .navbar-nav {
         margin: 0 0 0 3px;
